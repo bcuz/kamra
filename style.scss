@@ -45,8 +45,16 @@ nav {
 
 header {
   text-align: center;
-  height: 58em;
-  background-color: #000;
+  height: 40em;
+  color: #fff;
+  background: url(http://thinkful-ed.github.io/karma-clone/img/first-background.jpg) no-repeat center center;
+  background-size: cover;
+
+  .container {
+    position: relative;
+    top: 12em;
+  }
+
 }
 
 @media screen and (max-width: 992px) {
