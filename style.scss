@@ -94,6 +94,10 @@ section:nth-child(2) {
 
 section {
   text-align: center;
+
+  img {
+    width:130px;
+  }
 }
 
 @media screen and (max-width: 992px) {
