@@ -1,3 +1,5 @@
+$light_black: #5A5959;
+
 nav {
   height: 3em;
 
@@ -23,7 +25,7 @@ nav {
   }
 
   li:first-child {
-    color: #5A5959;
+    color: $light_black;
     font-weight: bold;
   }
 
@@ -68,7 +70,18 @@ section {
   a {
     display: inline-block;
     margin-top: 1.5em;
+    padding: 1.3em 2em;
+    background-color: #F15B2A;
+    color: #eee;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0.3em;
   }
+
+  a:hover {
+    background-color: #D9400E;
+  }
+
 
 }
 
