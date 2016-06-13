@@ -2,7 +2,7 @@ nav {
   height: 4em;
 
   img {
-    width: 35px;
+    width: 30px;
   }
 
   h1 {
@@ -14,8 +14,12 @@ nav {
     display: inline;
   }
 
+  li:first-child {
+    font-weight: bold;
+  }
+
   ul {
-    padding-left: none;
+    padding-left: 0;
   }
 }
 
