@@ -13,7 +13,7 @@ nav {
 
   li {
     display: inline;
-    padding-right: 1.3em;
+    margin-right: 1.3em;
   }
 
   li:first-child {
@@ -41,5 +41,11 @@ header {
 @media screen and (max-width: 992px) {
     nav {
       text-align: center;
+      height: 18em;
+
+      li {
+        display: block;
+        margin-top: 0.8em;
+      }
     }
   }
