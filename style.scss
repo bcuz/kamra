@@ -33,3 +33,9 @@ header {
   height: 58em;
   background-color: #000;
 }
+
+@media screen and (max-width: 992px) {
+    nav {
+      text-align: center;
+    }
+  }
