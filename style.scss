@@ -17,8 +17,13 @@ nav {
     color: #858585;
   }
 
+  li:hover {
+    color:#5A5959;
+    cursor: pointer;
+  }
+
   li:first-child {
-    color: #000;
+    color: #5A5959;
     font-weight: bold;
   }
 
