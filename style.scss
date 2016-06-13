@@ -1,7 +1,13 @@
 $light_black: #5A5959;
 
 nav {
-  height: 3em;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 50px;
 
   img {
     width: 28px;
@@ -45,7 +51,7 @@ nav {
   margin: 0 auto;
 }
 
-section {
+section:nth-child(2) {
   text-align: center;
   height: 40em;
   color: #fff;
