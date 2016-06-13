@@ -88,11 +88,15 @@ section {
 @media screen and (max-width: 992px) {
     nav {
       text-align: center;
-      height: 17em;
+      height: 12em;
 
       li {
         display: block;
         margin-top: 0.8em;
+      }
+
+      li:nth-child(4), li:nth-child(5) {
+        display: none;
       }
     }
   }
