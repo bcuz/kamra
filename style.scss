@@ -94,6 +94,12 @@ section:nth-child(2) {
 
 section {
   text-align: center;
+  height: 30em;
+
+  .container {
+    position: relative;
+    top: 6em;
+  }
 
   img {
     width:130px;
