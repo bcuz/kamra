@@ -160,6 +160,10 @@ footer {
 
       section:nth-child(2) {
         border-top: $grey-border;
+
+        .container {
+          @include position-relative(10em);
+        }
       }
 
       .icons {
