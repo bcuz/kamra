@@ -108,14 +108,28 @@ section:nth-child(2) {
 }
 
 footer {
-
   text-align: center;
   height: 18em;
+
+  p {
+    color: $light_black;
+    font-size: 0.9em;
+  }
 
   .container {
     border-top: 1px solid #eee;
 
+    div {
+      width: 35px;
+      height: 35px;
+      border: 1px solid #eee;
+      border-radius: 100%;
+      display: inline-block;
+      margin-right: 0.5em;
+    }
   }
+
+
 }
 
 @media screen and (max-width: 992px) {
