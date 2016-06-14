@@ -67,7 +67,7 @@ section:nth-child(2) {
   background-size: cover;
 
   .container {
-    @include position-relative(12em);
+    @include position-relative(14em);
     border: none;
   }
 
