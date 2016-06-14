@@ -118,9 +118,9 @@ footer {
 @media screen and (max-width: 992px) {
     nav {
       text-align: center;
-      height: 12em;
+      height: 14em;
       position: static;
-      // border: none;
+      border: none;
 
       li {
         display: block;
@@ -131,4 +131,8 @@ footer {
         display: none;
       }
     }
+
+      section:nth-child(2) {
+        border-top: 1px solid #eee;
+      }
   }
