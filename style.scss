@@ -1,5 +1,10 @@
 $light_black: #5A5959;
 
+@mixin position-relative($amount) {
+  position: relative;
+  top: $amount;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -61,8 +66,7 @@ section:nth-child(2) {
   background-size: cover;
 
   .container {
-    position: relative;
-    top: 12em;
+    @include position-relative(12em);
     border: none;
   }
 
