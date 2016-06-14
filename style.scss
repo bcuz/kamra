@@ -93,7 +93,7 @@ section:nth-child(2) {
 
 }
 
-section {
+.icons {
   text-align: center;
   height: 30em;
 
@@ -137,5 +137,9 @@ footer {
 
       section:nth-child(2) {
         border-top: 1px solid #eee;
+      }
+
+      .icons {
+        margin-bottom: 20em;
       }
   }
