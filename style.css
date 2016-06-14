@@ -43,7 +43,7 @@ section:nth-child(2) {
   background-size: cover; }
   section:nth-child(2) .container {
     position: relative;
-    top: 12em;
+    top: 14em;
     border: none; }
   section:nth-child(2) h1 {
     font-size: 3em;
@@ -103,5 +103,8 @@ footer {
       display: none; }
   section:nth-child(2) {
     border-top: 1px solid #eee; }
+    section:nth-child(2) .container {
+      position: relative;
+      top: 10em; }
   .icons {
     margin-bottom: 20em; } }
