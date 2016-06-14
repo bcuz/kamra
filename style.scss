@@ -63,6 +63,7 @@ section:nth-child(2) {
   .container {
     position: relative;
     top: 12em;
+    border: none;
   }
 
   h1 {
@@ -99,10 +100,15 @@ section {
   .container {
     position: relative;
     top: 6em;
+    border-bottom: 1px solid #eee;
   }
 
   img {
     width:130px;
+  }
+
+  .clearfix {
+    clear: both;
   }
 }
 
@@ -111,7 +117,7 @@ section {
       text-align: center;
       height: 12em;
       position: static;
-      border: none;
+      // border: none;
 
       li {
         display: block;
