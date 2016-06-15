@@ -145,6 +145,14 @@ footer {
 
 }
 
+
+@media screen and (min-width: 992px) {
+  /* remember to change max/min */
+  ul {
+    display: block;
+  }
+}
+
 @media screen and (max-width: 992px) {
     nav {
       text-align: center;
