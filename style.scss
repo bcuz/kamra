@@ -17,7 +17,12 @@ nav {
   background-color: #fff;
   border-bottom: $grey-border;
 
-  img {
+    img:first-child {
+    display: none;
+    margin-right: 1em;
+  }
+
+  .logo {
     width: 28px;
     padding-top: 0.8em;
   }
@@ -143,7 +148,7 @@ footer {
 @media screen and (max-width: 992px) {
     nav {
       text-align: center;
-      height: 14em;
+      height: 4em;
       position: static;
       border: none;
 
@@ -152,13 +157,27 @@ footer {
         margin-top: 0.8em;
       }
 
+      li:first-child {
+        margin-top: -0.3em;
+      }
+
       li:nth-child(4), li:nth-child(5) {
         display: none;
+      }
+
+      img:first-child {
+        display: inline;
+      }
+
+      ul {
+        display: none;
+        background-color: #fff;
+        height: 9em;
       }
     }
 
       section:nth-child(2) {
-        border-top: $grey-border;
+        // border-top: $grey-border;
 
         .container {
           @include position-relative(10em);
