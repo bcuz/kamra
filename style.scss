@@ -146,18 +146,13 @@ footer {
 }
 
 
-@media screen and (min-width: 992px) {
-  /* remember to change max/min */
-  ul {
-    display: block;
-  }
-}
+
 
 @media screen and (max-width: 992px) {
     nav {
       text-align: center;
-      height: 4em;
-      position: static;
+      height: 6em;
+      // position: static;
       border: none;
 
       li {
@@ -178,6 +173,7 @@ footer {
       }
 
       ul {
+        // border: $grey-border;
         display: none;
         background-color: #fff;
         height: 9em;
@@ -196,3 +192,11 @@ footer {
         margin-bottom: 20em;
       }
   }
+
+
+@media screen and (min-width: 992px) {
+  /* remember to change max/min */
+  ul {
+    display: block;
+  }
+}
