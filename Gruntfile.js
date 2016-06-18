@@ -9,9 +9,15 @@ module.exports = function(grunt){
       },
       // files:['site/**'],
       files:['*'],
-      tasks:['sass']
+      tasks:['sass', 'jshint']
       // spawn: false
 
+    },
+
+    jshint: {
+      files: {
+        src: ['script.js']
+      },
     },
 
      sass: {
@@ -39,6 +45,7 @@ module.exports = function(grunt){
   });
 
   grunt.loadNpmTasks('grunt-contrib-connect');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-sass');
   grunt.registerTask('server',[  'connect', 'watch']);
