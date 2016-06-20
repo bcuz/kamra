@@ -16,9 +16,10 @@ nav {
     left: 0;
     z-index: 1000;
     width: 100%;
-    height: 4.2em;
     background-color: #fff;
-    border-bottom: $grey-border;
+    text-align: center;
+    height: 6em;
+
     img:first-child {
         display: none;
         margin-right: 1em;
@@ -137,14 +138,16 @@ footer {
 
 @media screen and (min-width: 700px) {
   /* remember to change max/min 1024 */
+
+  nav {
+    height: 4.2em;
+    border-bottom: $grey-border;
+  }
 }
 
 @media screen and (max-width: 992px) {
     nav {
-        text-align: center;
-        height: 6em;
-        // position: static;
-        border: none;
+
         li {
             display: block;
             margin-top: 0.8em;
