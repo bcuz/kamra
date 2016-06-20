@@ -127,11 +127,16 @@ footer {
 }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 992px) {
   /* remember to change max/min */
   ul {
         display: block !important;
     }
+}
+
+
+@media screen and (min-width: 700px) {
+  /* remember to change max/min 1024 */
 }
 
 @media screen and (max-width: 992px) {
