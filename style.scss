@@ -1,11 +1,15 @@
 $light_black: #5A5959;
 $grey-border: 1px solid #eee;
+
+// get rid of relative positioning
 @mixin position-relative($amount) {
     position: relative;
     top: $amount;
 }
 
 nav {
+  // will be fixed at all times
+  // no border on small screens thou
     position: fixed;
     top: 0;
     right: 0;
