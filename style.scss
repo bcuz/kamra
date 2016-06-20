@@ -122,6 +122,14 @@ footer {
     }
 }
 
+
+@media screen and (min-width: 700px) {
+  /* remember to change max/min */
+  ul {
+        display: block !important;
+    }
+}
+
 @media screen and (max-width: 992px) {
     nav {
         text-align: center;
@@ -156,12 +164,5 @@ footer {
     }
     .icons {
         margin-bottom: 20em;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    /* remember to change max/min */
-    ul {
-        display: block !important;
     }
 }
