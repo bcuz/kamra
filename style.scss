@@ -32,10 +32,11 @@ nav {
     }
 
     li {
-        display: inline;
-        margin-right: 1.3em;
-        color: #858585;
-    }
+            display: block;
+            margin-top: 0.8em;
+        }
+
+
     li:hover {
         color: #5A5959;
         cursor: pointer;
@@ -128,21 +129,27 @@ footer {
 
 @media screen and (min-width: 992px) {
   /* remember to change max/min */
-  ul {
-        display: block !important;
-    }
 }
 
 
 @media screen and (min-width: 700px) {
   /* remember to change max/min 1024 */
 
+  ul {
+        display: block !important;
+    }
   nav {
     height: 4.2em;
     border-bottom: $grey-border;
 
     img:first-child {
       display: none;
+    }
+
+    li {
+        display: inline;
+        margin-right: 1.3em;
+        color: #858585;
     }
   }
 
@@ -157,10 +164,7 @@ footer {
 @media screen and (max-width: 992px) {
     nav {
 
-        li {
-            display: block;
-            margin-top: 0.8em;
-        }
+
         li:first-child {
             margin-top: -0.3em;
         }
