@@ -8,7 +8,7 @@ module.exports = function(grunt){
         spawn: false
       },
       // files:['site/**'],
-      files:['*'],
+      files:['*.html', '*.scss', '/*.js'],
       tasks:['sass', 'jshint']
       // spawn: false
 
@@ -16,7 +16,7 @@ module.exports = function(grunt){
 
     jshint: {
       files: {
-        src: ['script.js']
+        src: ['js/script.js']
       },
     },
 
