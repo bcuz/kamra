@@ -65,10 +65,9 @@ section:nth-child(2) {
     color: #fff;
     background: url(../images/first-background.jpg) no-repeat center center;
     background-size: cover;
-    .container {
-        @include position-relative(14em);
-        border: none;
-    }
+   .container {
+            @include position-relative(10em);
+        }
     h1 {
         font-size: 3em;
         margin-bottom: 0.3em;
@@ -143,6 +142,13 @@ footer {
     height: 4.2em;
     border-bottom: $grey-border;
   }
+
+  section:nth-child(2) {
+    .container {
+        @include position-relative(14em);
+        border: none;
+    }
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -170,9 +176,7 @@ footer {
     }
     section:nth-child(2) {
         // border-top: $grey-border;
-        .container {
-            @include position-relative(10em);
-        }
+
     }
     .icons {
         margin-bottom: 20em;
