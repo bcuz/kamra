@@ -155,7 +155,7 @@ footer {
         img:first-child {
             display: none;
         }
-        li {
+        li, li:nth-child(4), li:nth-child(5) {
             display: inline;
             margin-right: 1.3em;
             color: #858585;
