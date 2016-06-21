@@ -8,8 +8,6 @@ $grey-border: 1px solid #eee;
 }
 
 nav {
-  // will be fixed at all times
-  // no border on small screens thou
     position: fixed;
     top: 0;
     right: 0;
@@ -25,7 +23,6 @@ nav {
         margin-right: 1em;
     }
 
-    // always
     .logo {
         width: 28px;
         padding-top: 0.8em;
@@ -36,6 +33,18 @@ nav {
             margin-top: 0.8em;
         }
 
+        li:first-child {
+            margin-top: -0.3em;
+        }
+        li:nth-child(4),
+        li:nth-child(5) {
+            display: none;
+        }
+        ul {
+            display: none;
+            background-color: #fff;
+            height: 9em;
+        }
 
     li:hover {
         color: #5A5959;
@@ -134,13 +143,26 @@ footer {
 
 @media screen and (min-width: 700px) {
   /* remember to change max/min 1024 */
+  .col-5, .col-7 {
+    float: left;
+  }
 
-  ul {
-        display: block !important;
-    }
+  .col-5 {
+  width: 41.66%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
   nav {
     height: 4.2em;
     border-bottom: $grey-border;
+
+    ul {
+        display: block !important;
+        height: auto;
+    }
 
     img:first-child {
       display: none;
@@ -165,18 +187,7 @@ footer {
     nav {
 
 
-        li:first-child {
-            margin-top: -0.3em;
-        }
-        li:nth-child(4),
-        li:nth-child(5) {
-            display: none;
-        }
-        ul {
-            display: none;
-            background-color: #fff;
-            height: 9em;
-        }
+
     }
     .icons {
         margin-bottom: 20em;
