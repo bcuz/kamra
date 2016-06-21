@@ -6,6 +6,12 @@ $grey-border: 1px solid #eee;
     top: $amount;
 }
 
+//  this rule should be applied to anything that's
+// less than 700px
+.icons {
+        margin-bottom: 20em;
+    }
+
 nav {
     position: fixed;
     top: 0;
@@ -131,6 +137,7 @@ footer {
 
 @media screen and (min-width: 700px) {
     /* remember to change max/min 1024 */
+
     .col-5,
     .col-7 {
         float: left;
@@ -165,12 +172,10 @@ footer {
     }
 }
 
-@media screen and (max-width: 992px) {
-    .icons {
-        margin-bottom: 20em;
-    }
-}
-
 @media screen and (min-width: 992px) {
     /* remember to change max/min */
+
+    .icons {
+        margin-bottom: 0;
+    }
 }
