@@ -129,10 +129,6 @@ footer {
     }
 }
 
-@media screen and (min-width: 992px) {
-    /* remember to change max/min */
-}
-
 @media screen and (min-width: 700px) {
     /* remember to change max/min 1024 */
     .col-5,
@@ -173,4 +169,8 @@ footer {
     .icons {
         margin-bottom: 20em;
     }
+}
+
+@media screen and (min-width: 992px) {
+    /* remember to change max/min */
 }
