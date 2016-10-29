@@ -93,6 +93,8 @@ footer {
   footer img {
     width: 40px;
     margin-right: 0.5em; }
+  footer img:hover {
+    cursor: pointer; }
   footer .container {
     border-top: 1px solid #eee; }
 
