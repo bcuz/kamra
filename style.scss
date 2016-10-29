@@ -122,6 +122,7 @@ footer {
     }
     img {
         width: 40px;
+        margin-right: 0.5em;
     }
     .container {
         border-top: $grey-border;
@@ -131,7 +132,7 @@ footer {
             border: $grey-border;
             border-radius: 100%;
             display: inline-block;
-            margin-right: 0.5em;
+
         }
     }
 }
