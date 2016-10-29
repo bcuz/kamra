@@ -124,6 +124,9 @@ footer {
         width: 40px;
         margin-right: 0.5em;
     }
+    img:hover {
+        cursor:pointer;
+    }
     .container {
         border-top: $grey-border;
     }
