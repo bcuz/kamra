@@ -90,15 +90,11 @@ footer {
   footer p {
     color: #5A5959;
     font-size: 0.9em; }
+  footer img {
+    width: 40px;
+    margin-right: 0.5em; }
   footer .container {
     border-top: 1px solid #eee; }
-    footer .container div {
-      width: 35px;
-      height: 35px;
-      border: 1px solid #eee;
-      border-radius: 100%;
-      display: inline-block;
-      margin-right: 0.5em; }
 
 @media screen and (min-width: 700px) {
   /* remember to change max/min 1024 */
