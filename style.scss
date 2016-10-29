@@ -120,16 +120,12 @@ footer {
         color: $light_black;
         font-size: 0.9em;
     }
+    img {
+        width: 40px;
+        margin-right: 0.5em;
+    }
     .container {
         border-top: $grey-border;
-        div {
-            width: 35px;
-            height: 35px;
-            border: $grey-border;
-            border-radius: 100%;
-            display: inline-block;
-            margin-right: 0.5em;
-        }
     }
 }
 
